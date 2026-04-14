@@ -86,10 +86,10 @@ Tableau Dashboard
 
 ```id="structure"
 data/
-├── raw/
+├── 00_raw/
 │   └── core_transactions_sample.csv
 │
-└── processed/
+└── 01_processed/
     ├── summary_country_month.csv
     └── summary_country_yoy.csv
 
@@ -99,8 +99,8 @@ sql/
 └── 02_monthly_aggregation.sql
 
 dashboard/
-├── tableau_link.txt
-└── dashboard_preview.pdf
+├── 00_executive_overview.png
+└── 01_growth_quality_analysis.png
 
 presentation/
 └── monetization_analysis.pdf
