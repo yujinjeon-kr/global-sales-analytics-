@@ -118,7 +118,7 @@ presentation/
 
 [![Growth Quality Analysis](./02_dashboard/01_growth_quality_analysis.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/GrowthQualityAnalysis)
 
-🔗 **[Open Full Interactive Dashboard]([https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)**
+🔗 **[Open Full Interactive Dashboard](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)**
 
 ### Features:
 
