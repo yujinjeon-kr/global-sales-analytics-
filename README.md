@@ -108,14 +108,19 @@ presentation/
 
 
 ---
-
 ## Dashboard
 
-Interactive Tableau dashboard:
+### Executive Overview
 
-👉 [https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+[![Executive Overview](./02_dashboard/00_executive_overview.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)
 
-Features:
+### Growth Quality Analysis
+
+[![Growth Quality Analysis](./02_dashboard/01_growth_quality_analysis.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/GrowthQualityAnalysis)
+
+🔗 **[Open Full Interactive Dashboard]([https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)**
+
+### Features:
 
 * KPI overview (Revenue, Orders, Users, AOV)
 * Monthly trends
