@@ -1,25 +1,43 @@
-# Revenue Growth Quality Analysis
 
-## 1. Problem
+# Revenue Growth Quality & Monetization Analysis
 
-Revenue is increasing across markets, but top-line growth alone does not indicate sustainable performance.
+## Overview
 
-This project evaluates whether growth is driven by scalable value (AOV) or short-term volume expansion.
+This project analyzes multi-country transaction data to evaluate whether revenue growth is driven by **scalable value (AOV)** or short-term **volume expansion**.
+
+Rather than relying on top-line growth, the analysis focuses on **growth quality** and **monetization efficiency** across markets.
 
 ---
 
-## 2. Approach
+## Key Question
 
-To assess growth quality, revenue is decomposed into two core drivers:
+> Is revenue growth truly sustainable, or is it driven by declining value per transaction?
+
+---
+
+## Approach
+
+### 1. Growth Decomposition
+
+Revenue is broken down into two core drivers:
 
 * **Volume** → number of orders
 * **Value** → Average Order Value (AOV)
 
-A **YTD-aligned year-over-year framework** is applied to ensure consistent comparison across markets.
+This allows identification of whether growth is structurally healthy or driven by discount-led expansion.
 
 ---
 
-## 3. Market Segmentation
+### 2. YTD-Aligned YoY Framework
+
+To ensure fair comparison across markets:
+
+* Year-to-date (YTD) periods are aligned
+* Growth is calculated on consistent time windows
+
+---
+
+### 3. Market Segmentation
 
 Markets are classified based on growth structure:
 
@@ -31,42 +49,42 @@ This segmentation highlights differences between sustainable growth and monetiza
 
 ---
 
-## 4. Key Insight
+## Key Insights
 
-A significant portion of revenue growth is **volume-driven**, indicating increased transaction frequency but declining monetization efficiency.
-
-This suggests that growth is not fully supported by pricing power or customer value.
+* A large portion of growth is **volume-driven**, indicating declining monetization efficiency
+* Growth is heavily dependent on **existing users and increased transaction frequency**
+* Several markets show strong revenue growth but weakening value capture
 
 ---
 
-## 5. Business Implication
+## Business Implications
 
-* High-growth markets require **pricing optimization** to recover AOV
-* At-risk markets need **root-cause analysis** on demand quality and discount dependency
+* High-growth markets require **pricing and AOV optimization**
+* At-risk markets need **root-cause analysis on demand quality and discount dependency**
 * Healthy markets should be prioritized for **premium positioning and expansion**
 
 ---
 
-## 6. Data Pipeline
+## Data Pipeline
 
 The analysis is built on a structured data pipeline:
 
-```
-Raw Transactions
-    ↓
-core_transactions_enriched (data cleaning & feature engineering)
-    ↓
-summary_country_month (monthly aggregation)
-summary_country_yoy (YTD-aligned YoY metrics)
-    ↓
-Tableau Dashboard
+```id="pipeline"
+Raw Transactions  
+   ↓  
+core_transactions_enriched (data cleaning & feature engineering)  
+   ↓  
+summary_country_month (monthly aggregation)  
+summary_country_yoy (YTD-aligned YoY metrics)  
+   ↓  
+Tableau Dashboard  
 ```
 
 ---
 
-## 7. Repository Structure
+## Repository Structure
 
-```
+```id="structure"
 data/
 ├── raw/
 │   └── core_transactions_sample.csv
@@ -81,29 +99,58 @@ sql/
 ├── 02_monthly_aggregation.sql
 
 dashboard/
-└── tableau_link.txt
+├── tableau_link.txt
+└── dashboard_preview.pdf
 
-images/
-└── dashboard_preview.png
+presentation/
+└── monetization_analysis.pdf
 ```
 
----
-
-## 8. Tools
-
-* **SQL** → data modeling, aggregation, YTD alignment
-* **Tableau** → interactive dashboard design and visualization
 
 ---
 
-## 9. Dashboard
+## Dashboard
 
-👉 Tableau Public:
-[(https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)]
+Interactive Tableau dashboard:
+
+👉 [https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+
+Features:
+
+* KPI overview (Revenue, Orders, Users, AOV)
+* Monthly trends
+* Growth decomposition by country
+* Market segmentation (At Risk / Volume-driven / Healthy)
+* Interactive filtering across views
 
 ---
 
-## 10. Notes
+## Presentation
 
-Due to file size constraints, only a sample of raw data is provided.
-All transformations are fully reproducible using the SQL scripts in this repository.
+A structured business analysis is provided separately:
+
+👉 [Download PDF](./presentation/monetization_analysis.pdf)
+
+This complements the dashboard by explaining:
+
+* Growth driver breakdown
+* Market-level behavior
+* Monetization risk interpretation
+
+---
+
+## Tools
+
+* **SQL (SQLite)** → data modeling, feature engineering, aggregation
+* **Tableau** → interactive dashboard and visualization
+* **Python** → exploratory analysis and business interpretation (presentation)
+
+---
+
+## Notes
+
+* Only a sample of raw data is included due to file size limitations
+* All transformations are fully reproducible using the SQL scripts in this repository
+
+---
+
