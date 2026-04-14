@@ -1,5 +1,5 @@
 
-# Revenue Growth Quality & Monetization Analysis
+# Growth Quality & Monetization Analysis
 
 ## Overview
 
