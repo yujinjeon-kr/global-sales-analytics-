@@ -94,9 +94,9 @@ data/
     └── summary_country_yoy.csv
 
 sql/
-├── 00_core_transactions_enriched.sql
+├── 00_core_transactions_enriched_sample.sql
 ├── 01_yoy_analysis.sql
-├── 02_monthly_aggregation.sql
+└── 02_monthly_aggregation.sql
 
 dashboard/
 ├── tableau_link.txt
