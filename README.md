@@ -129,7 +129,7 @@ Features:
 
 A structured business analysis is provided separately:
 
-👉 [Download PDF](./presentation/monetization_analysis.pdf)
+👉 [Download PDF](./03_presentation/Growth Quality & Monetization Analysis.pdf)
 
 This complements the dashboard by explaining:
 
