@@ -134,7 +134,7 @@ presentation/
 
 A structured business analysis is provided separately:
 
-👉 [Download PDF](./03_presentation/Growth_Quality_Monetization_Analysis_YujinJeon.pdf)
+👉 [Download PDF](./03_presentation/Growth_Quality_Monetization_Analysis.pdf)
 
 
 This complements the dashboard by explaining:
