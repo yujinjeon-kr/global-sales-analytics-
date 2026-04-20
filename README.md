@@ -110,13 +110,21 @@ presentation/
 ---
 ## Dashboard
 
-### Executive Overview
+### Executive Performance
 
-[![Executive Overview](./02_dashboard/00_executive_overview.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)
+[![Executive Overview](./02_dashboard/01_ executive_performance.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)
 
-### Growth Quality Analysis
+### Growth Quality by Market Analysis
 
-[![Growth Quality Analysis](./02_dashboard/01_growth_quality_analysis.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/GrowthQualityAnalysis)
+[![Growth Quality Analysis](./02_dashboard/02_growth_quality_by_market.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/GrowthQualityAnalysis)
+
+### Rentention & Customer Behavior Analysis
+
+[![Growth Quality Analysis](./02_dashboard/03_retention_n_customer_behavior.png)]([https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/GrowthQualityAnalysis](https://public.tableau.com/views/_17766615647000/1_ExecutivePerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+)
+
+
+https://public.tableau.com/app/profile/yujin.jeon7809/viz/_17766615647000/1_ExecutivePerformance
 
 🔗 **[Open Full Interactive Dashboard](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)**
 
