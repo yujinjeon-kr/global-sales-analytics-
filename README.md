@@ -112,7 +112,7 @@ presentation/
 
 ### Executive Performance
 
-[![Executive Overview](./02_dashboard/01_ executive_performance.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)
+[![Executive Overview](./02_dashboard/01_executive_performance.png)](https://public.tableau.com/views/Global_Sales_Analytics_Monetization_YujinJeon/ExecutiveOverview)
 
 ### Growth Quality by Market Analysis
 
