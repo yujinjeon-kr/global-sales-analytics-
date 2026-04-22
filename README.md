@@ -95,7 +95,7 @@ data/
 
 sql/
 ├── 00_core_transactions_enriched_sample.sql
-├── 01_yoy_analysis.sql
+├── 01_transactions_mart.sql
 └── 02_monthly_aggregation.sql
 
 dashboard/
